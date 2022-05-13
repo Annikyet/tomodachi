@@ -1,0 +1,47 @@
+:root {
+  --light-text: #FFFFFFD0;
+  --dark-bg: darkred;
+}
+
+@font-face {
+  font-family: "DEADCRT";
+  src: url("DEADCRT.ttf")
+}
+
+header {
+  display: flex;
+  align-items: center;
+  font-family: "DEADCRT";
+  background-color: var(--dark-bg);
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  height: 10vh;
+  width: 100vw;
+  padding-bottom: 1em;
+  position: fixed;
+  top: 0px;
+  z-index: 99;
+}
+
+main {
+  margin-top: 10vh;
+  height: 500vh;
+}
+
+#hero-img {
+  background-image: url("hero-bg.jpg");
+  min-height: 60vh;
+  background-size: cover;
+}
+
+#signup-box h4, #ovly-text{
+  color: var(--light-text);
+}
+
+#pitch-bar {
+  min-height: 30vh;
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+}
