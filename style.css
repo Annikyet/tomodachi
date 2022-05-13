@@ -9,16 +9,22 @@
 }
 
 header {
+  background-color: var(--dark-bg);
+  height: 10vh;
+  width: 100vw;
+}
+
+.site-title {
   display: flex;
   align-items: center;
   font-family: "DEADCRT";
-  background-color: var(--dark-bg);
+  /* background-color: var(--dark-bg); */
   color: white;
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 1em;
-  height: 10vh;
-  width: 100vw;
+  /* height: 10vh; */
+  /* width: 100vw; */
   padding-bottom: 1em;
   position: fixed;
   top: 0px;
@@ -26,7 +32,7 @@ header {
 }
 
 main {
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   height: 500vh;
 }
 
@@ -41,7 +47,21 @@ main {
 }
 
 #pitch-bar {
-  min-height: 30vh;
+  height: 30vh;
   background-color: var(--dark-bg);
   color: var(--light-text);
+}
+
+.txt-lt {
+  color: var(--light-text);
+}
+
+.bg-drk {
+  background-color: var(--dark-bg);
+}
+
+.hanging-card {
+  min-height: 36vh;
+  position: relative;
+  top: 10vh;
 }
