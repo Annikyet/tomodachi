@@ -5,7 +5,12 @@
 
 @font-face {
   font-family: "DEADCRT";
-  src: url("DEADCRT.ttf")
+  src: url("DEADCRT.ttf");
+}
+
+@font-face {
+  font-family: "subway";
+  src: url("subway.ttf")
 }
 
 header {
@@ -17,7 +22,7 @@ header {
 .site-title {
   display: flex;
   align-items: center;
-  font-family: "DEADCRT";
+  font-family: "DEADCRT", monospace;
   /* background-color: var(--dark-bg); */
   color: white;
   padding-left: 2em;
@@ -29,6 +34,14 @@ header {
   position: fixed;
   top: 0px;
   z-index: 99;
+}
+
+.tomodachi {
+  font-family: "DEADCRT";
+}
+
+.subway {
+  font-family: 'subway', monospace;
 }
 
 #hero-img {
@@ -51,6 +64,10 @@ header {
   background-color: var(--dark-bg);
 }
 
+.dyn-fsize-3 {
+  font-size: 16px;
+}
+
 @media only screen and (min-width: 768px) {
   .hanging-card {
     min-height: 30vh;
@@ -61,6 +78,10 @@ header {
   /* Push Down 15vh */
   .mt-md-15vh {
     margin-top: 15vh;
+  }
+
+  .dyn-fsize-3 {
+    font-size: 32px;
   }
 }
 
