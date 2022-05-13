@@ -31,19 +31,10 @@ header {
   z-index: 99;
 }
 
-main {
-  /* margin-top: 10vh; */
-  /* height: 500vh; */
-}
-
 #hero-img {
   background-image: url("hero-bg.jpg");
   min-height: 60vh;
   background-size: cover;
-}
-
-#signup-box h4, #ovly-text{
-  color: var(--light-text);
 }
 
 #pitch-bar {
@@ -54,10 +45,6 @@ main {
 
 .txt-lt {
   color: var(--light-text);
-}
-
-.txt-wht {
-  color: white;
 }
 
 .bg-drk {
@@ -72,7 +59,7 @@ main {
   }
 
   /* Push Down 15vh */
-  .pd-15 {
+  .mt-md-15vh {
     margin-top: 15vh;
   }
 }
@@ -92,19 +79,10 @@ img {
   height: 100%;
 }
 
-/* min Height 70vh */
-.h-70 {
-  min-height: 70vh;
-}
-
 .left-bar {
   border-left-width: 0.4em;
   border-left-style: solid;
-  border-left-color: darkred;
-}
-
-.txt-blk {
-  color: black;
+  border-left-color: var(--dark-bg);
 }
 
 .sq {
@@ -132,11 +110,11 @@ img {
   background-color: darkred;
 }
 
-#reviews, .bg-dgry {
+.bg-dgry {
   background-color: #2e2e2e;
 }
 
-#reviews .row {
+.mh-40-v {
   min-height: 40vh;
 }
 
@@ -148,11 +126,10 @@ img {
   color: darkred;
 }
 
-/* min Height 24vh */
-.h-20 {
+.mh-20vh {
   min-height: 20vh;
 }
 
-.h-10 {
+.mh-10vh {
   min-height: 10vh;
 }
