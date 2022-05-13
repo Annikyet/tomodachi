@@ -33,7 +33,7 @@ header {
 
 main {
   /* margin-top: 10vh; */
-  height: 500vh;
+  /* height: 500vh; */
 }
 
 #hero-img {
@@ -56,12 +56,100 @@ main {
   color: var(--light-text);
 }
 
+.txt-wht {
+  color: white;
+}
+
 .bg-drk {
   background-color: var(--dark-bg);
 }
 
 .hanging-card {
-  min-height: 36vh;
+  min-height: 30vh;
   position: relative;
   top: 10vh;
+}
+
+#pitch {
+  background-image: linear-gradient(135deg, #c90051, #194bd3);
+}
+
+img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.full-height {
+  height: 100%;
+}
+
+/* min Height 70vh */
+.h-70 {
+  min-height: 70vh;
+}
+
+/* Push Down 15vh */
+.pd-15 {
+  margin-top: 15vh;
+}
+
+.left-bar {
+  border-left-width: 0.4em;
+  border-left-style: solid;
+  border-left-color: darkred;
+}
+
+.txt-blk {
+  color: black;
+}
+
+.sq {
+  border-radius: 0px;
+}
+
+.bg-trans {
+  background-color: #00000040;
+}
+
+.bg-blur {
+  background-color: transparent;
+  backdrop-filter: blur(8px);
+}
+
+.form-control {
+  background-color: #D0D0D080;
+  border-radius: 0px;
+  border-width: 0px;
+}
+
+.btn {
+  border-radius: 0px;
+  color: white;
+  background-color: darkred;
+}
+
+#reviews, .bg-dgry {
+  background-color: #2e2e2e;
+}
+
+#reviews .row {
+  min-height: 40vh;
+}
+
+.bg-grey {
+  background-color: #777374;
+}
+
+.txt-red {
+  color: darkred;
+}
+
+/* min Height 24vh */
+.h-20 {
+  min-height: 20vh;
+}
+
+.h-10 {
+  min-height: 10vh;
 }
